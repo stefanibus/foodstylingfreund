@@ -1,0 +1,647 @@
+@charset "UTF-8";
+
+.typeform-widget {   display: none !important; }
+.show_on_desktop_only {display:none !important; }
+.show_on_mobile_only {display:inline !important; }
+
+#JotFormIFrame-82476298684374,
+#hideLogoOnPage {
+    display: none;
+}
+
+#mailAlert {
+    font-size: 2.7em !important;
+    line-height: 1.2 !important;
+}
+
+/* CSS Document */
+
+/* CSS Document */
+body {
+	position: absolute;
+	top: 0px;
+	background-color: #FFFFFF;
+	left: 0px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	line-height: 60px;
+	color: #333333;
+	padding: 0px;
+	width: 100%;
+	}
+h1 {
+	border-top: 2px solid #333333;
+	font-weight: 400;
+	font-size: 2em;
+	line-height: 1em;
+	padding-top: .5em;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 1em;
+	margin-bottom: .5em;
+	text-transform: uppercase;
+	display: block;
+	clear: both;
+	color: #333333;
+	}
+h2 {
+	color: #686868;
+	font-weight: 400;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	display:block;
+	clear: both;
+	}
+p {	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-weight: 300 !important;
+	}
+hr {
+	float: left;
+	width: 100%;
+	clear: both;
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 3px solid #666666;
+	}
+.smalltext {
+	padding-top: 2em;
+	font-size: .8em;
+	text-transform: uppercase;
+	font-style: italic;
+	display: block;
+	float: left;
+	width: 100%;
+	}
+iframe {
+	background-image:url(https://foodstyling-freund.de/content/images/layout/loader.gif);
+	background-position: center, center;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF !important;
+	}
+/* Layout */
+#logobox {
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	float: left;
+	clear: both;
+	padding: 1em;
+	margin: 0px;
+	z-index: 480;
+	}
+#logobox a, #logobox a:visited {
+    background-image: url(https://foodstyling-freund.de/content/images/layout/Logo-06.svg) !important;
+    margin-top: 85px;
+	background-size: 99% !important;
+	margin-left: -5px ;
+	width: 100%;
+	padding: 75px !important;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	display: block;
+	}
+
+#logobox a:hover, #logobox a:focus, #logobox a:active {
+    background-image: url(https://foodstyling-freund.de/content/images/layout/Logo-06.svg) !important;
+    margin-top: 85px;
+	padding:  75px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px ;
+	display: block;
+	background-size: 99%;
+	}
+.logo-svg {
+	height: 450px !important;
+}
+nav {
+	position: absolute !important;
+	top: 500px;
+	left: 0px;
+	border-top: none;
+	margin: 0px;
+	padding-right: 2em;
+	padding-left: 2em;
+	width: 100%;
+	display: block !important;
+	float: none;
+	clear: both;
+	}
+nav a {
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.6em;
+	font-size: 1.4em;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #333333;
+	text-decoration: none;
+	width: 100%;
+	}
+nav a:hover, nav a:focus, nav a:active {
+	font-weight: 400;
+	color: #686868;
+	text-decoration: none;
+    line-height: 2em;
+    font-size: 1.5em;
+    padding-left: 100px;
+	}
+.nav_active {
+	margin: 0px;
+	padding-left: 1.3em;
+	line-height: 2em;
+	font-size: 1.5em;
+	display: block;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #000000;
+	text-decoration: none;
+	background-image:url(https://foodstyling-freund.de/content/images/layout/arrow.jpg);
+	background-repeat: no-repeat;
+	background-size: 1em;
+	background-position: left center;
+	border-bottom: 1px solid #666666;
+	transition: all ease-in-out .3s;
+	}
+.smallnav {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	}
+.smallnav:hover {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	}
+.smallnav:focus {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	}
+.smallnav:active {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	}
+.nav_small_active {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	padding-left: 1.3em;
+	display:block;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+	background-image:url(https://foodstyling-freund.de/content/images/layout/arrow.jpg);
+	background-repeat: no-repeat;
+	background-size: 1em;
+	background-position: left center;
+	border-bottom: 1px solid #666666;
+	transition: all ease-in-out .3s;
+	}
+/* Socialize */
+.youtube {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	width: auto;
+	height: 2em;
+	background-image:url(https://foodstyling-freund.de/content/images/layout/youtube_icon_02.svg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	display: block;
+	background-size: 1.5em 1.5em;
+	margin: 0px;
+	padding-left: 2em;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	transition: none;
+	}
+.youtube:hover {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	width: auto;
+	height: 2em;
+	background-image:url(https://foodstyling-freund.de/content/images/layout/youtube_icon_01.svg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 1.5em 1.5em;
+	display: block;
+	margin: 0px;
+	padding-left: 2em;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	transition: none;
+	}
+.youtube:focus {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	width: auto;
+	height: 2em;
+	background-image:url(https://foodstyling-freund.de/content/images/layout/youtube_icon_01.svg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	display: block;
+	background-size: 1.5em 1.5em;
+	margin: 0px;
+	padding-left: 2em;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	transition: none;
+	}
+.youtube:active {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 2em;
+	width: auto;
+	height: 2em;
+	background-image:url(https://foodstyling-freund.de/content/images/layout/youtube_icon_01.svg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	display: block;
+	background-size: 1.5em 1.5em;
+	margin: 0px;
+	padding-left: 2em;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	transition: none;
+	}
+/* Contentbereich */
+#content {
+ 	top: 34em;
+	margin: 0px !important;
+	width: 100%;
+	padding: 2em;
+	}
+#content_ff_alt {
+	top: 37em;
+	margin: 0px !important;
+	width: 100%;
+	padding: 2em;
+	}
+.img_fullwidth {
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	}
+.contentcolumn_half {
+	display: block;
+	float:left;
+	width: 100% !important;
+	clear:both;
+	}
+#content p a {
+	font-size: 1em;
+	line-height: inherit;
+	margin: 0px;
+	padding: 0px;
+	background-image: none;
+	color: #686868;
+	text-decoration: none;
+	display: inline;
+	font-weight: 400;
+	}
+#content p a:hover, #content a:focus, #content a:active {
+	font-size: 1em;
+	line-height: inherit;
+	margin: 0px;
+	padding: 0px;
+	background-image: none;
+	color: #000000;
+	text-decoration: none;
+	display: inline;
+	font-weight: 400;
+	text-transform: none;
+	}
+
+.mail_button {
+	display: block !important;
+	line-height: 2.5em;
+	padding-top: .5em !important;
+	padding-right: 0.4em !important;
+	padding-bottom: .5em !important;
+	padding-left: 3em !important;
+	background-color: #686868;
+	text-decoration: none;
+	color: #FFFFFF !important;
+	text-transform: uppercase;
+	background-image:url(https://foodstyling-freund.de/content/images/layout/letter_icon_white.svg) !important;
+	background-position: .6em center;
+	background-repeat: no-repeat;
+	background-size: 1.7em 1.7em;
+	transition: all ease-in-out .5s;
+	}
+.mail_button:hover {
+	display: block !important;
+	line-height: 2em;
+	padding-top: .5em !important;
+	padding-right: 0.4em !important;
+	padding-bottom: .5em !important;
+	padding-left: 3em !important;
+	background-color: #000000;
+	text-decoration: none;
+	color: #FFFFFF !important;
+	text-transform: uppercase !important;
+	background-image:url(https://foodstyling-freund.de/content/images/layout/letter_icon_white.svg) !important;
+	background-position: .6em center;
+	background-repeat: no-repeat;
+	background-size: 1.7em 1.7em;
+	transition: all ease-in-out .3s;
+	}
+.mail_button:focus {
+	display: block !important;
+	line-height: 2em;
+	padding-top: .5em !important;
+	padding-right: 0.4em !important;
+	padding-bottom: .5em !important;
+	padding-left: 3em !important;
+	background-color: #000000;
+	text-decoration: none;
+	color: #FFFFFF !important;
+	text-transform: uppercase !important;
+	background-image:url(https://foodstyling-freund.de/content/images/layout/letter_icon_white.svg) !important;
+	background-position: .6em center;
+	background-repeat: no-repeat;
+	background-size: 1.7em 1.7em;
+	transition: all ease-in-out .3s;
+	}
+.mail_button:active {
+	display: block !important;
+	line-height: 2em;
+	padding-top: .5em !important;
+	padding-right: 0.4em !important;
+	padding-bottom: .5em !important;
+	padding-left: 3em !important;
+	background-color: #000000;
+	text-decoration: none;
+	color: #FFFFFF !important;
+	text-transform: uppercase !important;
+	background-image:url(https://foodstyling-freund.de/content/images/layout/letter_icon_white.svg) !important;
+	background-position: .6em center;
+	background-repeat: no-repeat;
+	background-size: 1.7em 1.7em;
+	transition: all ease-in-out .3s;
+	}
+
+.andMore {
+	display:block !important;
+	font-size: 0.8em;
+	background-image: url(https://foodstyling-freund.de/content/images/layout/arrow-up-xxl.png) !important;
+	background-size: 10% !important;
+}
+
+/* Clips */
+.clipbox {
+	width: 100%;
+	height: calc(0px + 4em);
+	float: left;
+	margin: 0px;
+	background-color: #FFFFFF !important;
+	padding-bottom: 55.25% !important;
+	border: none;
+	}
+.clipbox iframe {
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF !important;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	}
+.clip_description {
+	display: block;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin: 0px;
+	width: auto;
+	height: auto;
+	font-size: .8em;
+	line-height: 1.1em;
+	background-color: #efefef;
+	color: #333333;
+	font-weight: 400;
+	text-transform: uppercase;
+	transition: all ease-in-out .5s;
+	border: none;
+	}
+.clip_description:hover {
+	color: #FFFFFF;
+	background-color: #8e671a;
+	transition: all ease-in-out .5s;
+	}
+.clipbox:hover .clip_description {
+	color: #FFFFFF;
+	background-color: #8e671a;
+	transition: all ease-in-out .5s;
+	}
+/* Image Scale Boxen */
+.img_scale_box {
+	width: 100% !important;
+	height: auto;
+	border: none;
+	}
+.img_scale_box img {
+	height: auto;
+	margin-bottom:1em;
+	width: 100% !important;
+	border: none;
+	}
+.img_scale_box:hover {
+	transform: none;
+	border: none;
+	}
+.img_scale_box p {
+	background-color: #FFFFFF;
+	padding: .5em;
+	font-size: .7em;
+	line-height: 2em;
+	text-align: center;
+	color: #686868;
+	text-transform: uppercase;
+	display: block;
+	}
+/* Showreel */
+#showreel {
+	position: relative;
+	top: 0px;
+	height: auto;
+	padding-bottom: 55.25%;
+	display: block;
+   	overflow: hidden;
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+#showreel iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+	width: 100%;
+    height: 100%;
+	}
+/* Footer */
+footer {
+	position: relative;
+	font-size: 1em;
+	line-height: 1.3em;
+	text-transform: uppercase !important;
+	text-align: left;
+	display: block;
+	margin-top: 4em;
+	margin-bottom: 3em;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	height: auto;
+	float: left;
+	border-top: 3px solid #666666;
+	background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 6%;
+    clear: both;
+	}
+footer a {
+	font-size: 1em;
+	line-height: inherit;
+	margin: 0px;
+	padding: 0px;
+	background-image: none;
+	color: #686868;
+	text-decoration: none;
+	display: inline;
+	font-weight: 400;
+	}
+footer a:hover, footer a:focus, footer a:active {
+	font-size: 1em;
+	line-height: inherit;
+	margin: 0px;
+	padding: 0px;
+	background-image: none;
+	color: #666666;
+	text-decoration: none;
+	display: inline;
+	font-weight: 400;
+	}
+footer p {
+	margin-right: 0px;
+	margin-top: 12em;
+	}
+/* Preloader */
+#preload {
+	display: none;
+	}
+#self_unless {
+	display: none;
+    }
+
+#self_intern {
+	display: none;
+    }
+
+.pic_impressum {
+	max-width: 100%;
+}
+
+/* BULLET WÄ RE /2022 */
+.formular:before {    }
+
+.telephone_before:after {
+    content: "\260E";
+    margin-right: 0.5em;
+    padding-left: 10px;
+    color: darkslategray;
+  }
+
+.telephone {
+  font-size: 140%;
+  font-weight: bolder;
+  background-image: none;
+  background-color: #6da9dc;
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1)
+                rgba(0, 0, 0, 0.1)
+                rgba(0, 0, 0, 0.25);
+  border-bottom-color: #b3b3b3;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),
+                    0 1px 2px rgba(0, 0, 0, 0.05);
+  color: #0e244a !important;
+  display: block;
+  font-style: normal;
+  line-height: 20px;
+  margin: 2px 0 0;
+  padding: 9px 7px;
+  text-align: center;
+  text-decoration: none !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+}
+
+.email_before:before {
+    content: "\2709";
+    margin-right: 0.5em;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.telephone {
+      text-decoration: none;
+}
+
+.telephone:hover, .telephone:visited, .telephone:link, .telephone:active  {
+  display:block;
+  text-decoration: none;
+  cursor: default;
+  margin: 15px 0px 15px 0px;
+  font-size: 21px;
+}
