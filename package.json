@@ -1,0 +1,9 @@
+{
+  "name": "ralffreund-portfolio",
+  "version": "1.0.0",
+  "description": "Ralf Freund - Food Styling Portfolio",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Static site - no build needed' && exit 0"
+  }
+}
